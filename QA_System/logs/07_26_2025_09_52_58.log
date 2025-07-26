@@ -1,0 +1,13 @@
+[2025-07-26 09:53:20,970] 20 root - INFO - Loading data from UploadedFile(file_id='59fbb952-4c0d-436f-b665-15c536163b6a', name='AML_Mod_1_part_1.pdf', type='application/pdf', size=2722597, _file_urls=file_id: "59fbb952-4c0d-436f-b665-15c536163b6a"
+upload_url: "/_stcore/upload_file/ff201212-1ddb-4635-a0d3-c5e414438210/59fbb952-4c0d-436f-b665-15c536163b6a"
+delete_url: "/_stcore/upload_file/ff201212-1ddb-4635-a0d3-c5e414438210/59fbb952-4c0d-436f-b665-15c536163b6a"
+)
+[2025-07-26 09:53:26,505] 22 root - INFO - Successfully loaded 1 documents.
+[2025-07-26 09:53:32,531] 1025 httpx - INFO - HTTP Request: GET https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash "HTTP/1.1 200 OK"
+[2025-07-26 09:53:32,534] 24 root - INFO - Model loaded successfully.
+[2025-07-26 09:53:39,736] 1025 httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/text-embedding-004:batchEmbedContents "HTTP/1.1 200 OK"
+[2025-07-26 09:53:39,980] 36 root - INFO - Embeddings downloaded and stored successfully.
+[2025-07-26 09:53:40,481] 1025 httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/text-embedding-004:batchEmbedContents "HTTP/1.1 200 OK"
+[2025-07-26 09:53:40,523] 5770 google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+[2025-07-26 09:53:43,281] 1025 httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+[2025-07-26 09:53:43,283] 5781 google_genai.models - INFO - AFC remote call 1 is done.

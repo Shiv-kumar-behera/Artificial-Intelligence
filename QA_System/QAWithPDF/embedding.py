@@ -31,7 +31,7 @@ def download_embeddings(model, document):
     )
 
     # Save the index to storage
-    index.storage_context.persist(persist_dir="../storage")
+    index.storage_context.persist(persist_dir="./storage")
     
     logging.info("Embeddings downloaded and stored successfully.")
     return index.as_query_engine(llm=settings.llm)
