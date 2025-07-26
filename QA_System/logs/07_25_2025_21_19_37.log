@@ -1,0 +1,5 @@
+[2025-07-25 21:20:10,117] 20 root - INFO - Loading data from UploadedFile(file_id='9a1be202-e589-4112-a6b7-8e6b34a697c0', name='AML_Mod_1_part_1.pdf', type='application/pdf', size=2722597, _file_urls=file_id: "9a1be202-e589-4112-a6b7-8e6b34a697c0"
+upload_url: "/_stcore/upload_file/9989b114-1e20-4c79-a1ec-66bfafdb1e2e/9a1be202-e589-4112-a6b7-8e6b34a697c0"
+delete_url: "/_stcore/upload_file/9989b114-1e20-4c79-a1ec-66bfafdb1e2e/9a1be202-e589-4112-a6b7-8e6b34a697c0"
+)
+[2025-07-25 21:20:12,259] 22 root - INFO - Successfully loaded 1 documents.

@@ -1,0 +1,6 @@
+[2025-07-25 12:47:30,765] 20 root - INFO - Loading data from UploadedFile(file_id='aa44e279-bc19-42b9-8016-795a771425f1', name='AML_Mod_1_part_1.pdf', type='application/pdf', size=2722597, _file_urls=file_id: "aa44e279-bc19-42b9-8016-795a771425f1"
+upload_url: "/_stcore/upload_file/c45387eb-8b85-498a-ac7b-7193541292d1/aa44e279-bc19-42b9-8016-795a771425f1"
+delete_url: "/_stcore/upload_file/c45387eb-8b85-498a-ac7b-7193541292d1/aa44e279-bc19-42b9-8016-795a771425f1"
+)
+[2025-07-25 12:47:32,926] 22 root - INFO - Successfully loaded 1 documents.
+[2025-07-25 12:47:32,926] 39 root - ERROR - Error downloading embeddings: load_data() missing 1 required positional argument: 'data'

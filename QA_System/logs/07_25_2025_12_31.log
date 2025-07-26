@@ -1,0 +1,7 @@
+[2025-07-25 12:25:16,319] 20 root - INFO - Loading data from UploadedFile(file_id='e08da0c4-9e0c-411e-9796-ee71cbbc6c53', name='AML_Mod_1_part_1.pdf', type='application/pdf', size=2722597, _file_urls=file_id: "e08da0c4-9e0c-411e-9796-ee71cbbc6c53"
+upload_url: "/_stcore/upload_file/59918248-68a8-4b64-acb9-295a06adc927/e08da0c4-9e0c-411e-9796-ee71cbbc6c53"
+delete_url: "/_stcore/upload_file/59918248-68a8-4b64-acb9-295a06adc927/e08da0c4-9e0c-411e-9796-ee71cbbc6c53"
+)
+[2025-07-25 12:25:17,487] 22 root - INFO - Successfully loaded 1 documents.
+[2025-07-25 12:25:22,158] 1025 httpx - INFO - HTTP Request: GET https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash "HTTP/1.1 200 OK"
+[2025-07-25 12:25:24,425] 26 root - INFO - Model loaded successfully.

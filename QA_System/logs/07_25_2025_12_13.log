@@ -1,0 +1,8 @@
+[2025-07-25 12:34:26,698] 20 root - INFO - Loading data from UploadedFile(file_id='d545fbe1-f570-4a03-887c-37830cb35f05', name='AML_Mod_1_part_1.pdf', type='application/pdf', size=2722597, _file_urls=file_id: "d545fbe1-f570-4a03-887c-37830cb35f05"
+upload_url: "/_stcore/upload_file/47259fac-bb2c-467b-905a-2517c16a7d53/d545fbe1-f570-4a03-887c-37830cb35f05"
+delete_url: "/_stcore/upload_file/47259fac-bb2c-467b-905a-2517c16a7d53/d545fbe1-f570-4a03-887c-37830cb35f05"
+)
+[2025-07-25 12:34:27,845] 22 root - INFO - Successfully loaded 1 documents.
+[2025-07-25 12:34:30,826] 1025 httpx - INFO - HTTP Request: GET https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash "HTTP/1.1 200 OK"
+[2025-07-25 12:34:33,525] 26 root - INFO - Model loaded successfully.
+[2025-07-25 12:34:33,525] 40 root - ERROR - Error downloading embeddings: load_data() missing 1 required positional argument: 'data'

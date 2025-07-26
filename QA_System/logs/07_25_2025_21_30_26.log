@@ -1,0 +1,18 @@
+[2025-07-25 21:30:49,683] 20 root - INFO - Loading data from UploadedFile(file_id='7ff0b50f-2201-4933-a47a-7966eb8bafef', name='AML_Mod_1_part_1.pdf', type='application/pdf', size=2722597, _file_urls=file_id: "7ff0b50f-2201-4933-a47a-7966eb8bafef"
+upload_url: "/_stcore/upload_file/97bfca61-c574-4e8b-8a0e-a830348065ad/7ff0b50f-2201-4933-a47a-7966eb8bafef"
+delete_url: "/_stcore/upload_file/97bfca61-c574-4e8b-8a0e-a830348065ad/7ff0b50f-2201-4933-a47a-7966eb8bafef"
+)
+[2025-07-25 21:30:51,139] 22 root - INFO - Successfully loaded 1 documents.
+[2025-07-25 21:30:54,598] 1025 httpx - INFO - HTTP Request: GET https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash "HTTP/1.1 200 OK"
+[2025-07-25 21:30:54,600] 24 root - INFO - Model loaded successfully.
+[2025-07-25 21:31:01,239] 36 root - ERROR - Error downloading embeddings: 
+******
+Could not load OpenAI embedding model. If you intended to use OpenAI, please check your OPENAI_API_KEY.
+Original error:
+No API key found for OpenAI.
+Please set either the OPENAI_API_KEY environment variable or openai.api_key prior to initialization.
+API keys can be found or created at https://platform.openai.com/account/api-keys
+
+Consider using embed_model='local'.
+Visit our documentation for more embedding options: https://docs.llamaindex.ai/en/stable/module_guides/models/embeddings.html#modules
+******

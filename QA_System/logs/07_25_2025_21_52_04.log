@@ -1,0 +1,9 @@
+[2025-07-25 21:52:31,555] 20 root - INFO - Loading data from UploadedFile(file_id='df3c7a88-5604-4cde-82be-1607b5ea27c6', name='AML_Mod_1_part_1.pdf', type='application/pdf', size=2722597, _file_urls=file_id: "df3c7a88-5604-4cde-82be-1607b5ea27c6"
+upload_url: "/_stcore/upload_file/043c4c2f-cbc2-43b2-8ace-0b43cc8080db/df3c7a88-5604-4cde-82be-1607b5ea27c6"
+delete_url: "/_stcore/upload_file/043c4c2f-cbc2-43b2-8ace-0b43cc8080db/df3c7a88-5604-4cde-82be-1607b5ea27c6"
+)
+[2025-07-25 21:52:32,933] 22 root - INFO - Successfully loaded 1 documents.
+[2025-07-25 21:52:37,690] 1025 httpx - INFO - HTTP Request: GET https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash "HTTP/1.1 200 OK"
+[2025-07-25 21:52:37,704] 24 root - INFO - Model loaded successfully.
+[2025-07-25 21:52:43,929] 1025 httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/text-embedding-004:batchEmbedContents "HTTP/1.1 200 OK"
+[2025-07-25 21:52:44,064] 33 root - INFO - Embeddings downloaded and stored successfully.
